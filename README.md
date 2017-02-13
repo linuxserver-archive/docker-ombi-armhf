@@ -79,4 +79,5 @@ Webui is at `<your-ip>:3579`, sign in with your plex username. More info from [o
 
 ## Versions
 
++ **13.02.17:** Spec to latest X86.
 + **14.01.17:** Initial Release Date.
