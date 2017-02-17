@@ -14,10 +14,22 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 [![](https://images.microbadger.com/badges/image/lsioarmhf/ombi.svg)](http://microbadger.com/images/lsioarmhf/ombi "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/ombi.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/ombi.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-ombi)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-ombi/)
 [hub]: https://hub.docker.com/r/lsioarmhf/ombi/
 
-Want a Movie or TV Show on Plex? Use [Ombi!][ombiurl]
+[hub]: https://hub.docker.com/r/linuxserver/ombi/
 
-[![medusa](https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/plexrequests-banner.png)][ombiurl]
-[ombiurl]: http://ombi.io
+So what is [Ombi][ombiurl] you ask!?
+
+Ombi allows you to host your own Plex Request and user management system.
+ 
+If you are sharing your Plex server with other users, allow them to request new content using an easy to manage interface! 
+
+Manage all your requests for Movies and TV with ease, leave notes for the user and get notification when a user requests something. 
+
+Allow your users to post issues against their requests so you know there is a problem with the audio etc. 
+
+Even automatically sent them weekly newsletters of new content that has been added to your Plex server!
+
+[![ombi](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ombi.png)][ombiurl]
+[ombiurl]: https://ombi.io/
 
 ## Usage
 
@@ -62,7 +74,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 ## Setting up the application
 `IMPORTANT... THIS IS THE ARMHF VERSION`
 
-Webui is at `<your-ip>:3579`, sign in with your plex username. More info from [ombi][ombiurl]
+Webui is at `<your-ip>:3579`, Follow the setup wizard on initial install.  Then configure the required services.
 
 ## Info
 
