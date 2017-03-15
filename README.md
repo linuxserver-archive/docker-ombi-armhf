@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://ombi.io/
+[hub]: https://hub.docker.com/r/lsioarmhf/ombi/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,11 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/ombi
 [![](https://images.microbadger.com/badges/image/lsioarmhf/ombi.svg)](http://microbadger.com/images/lsioarmhf/ombi "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/ombi.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/ombi.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-ombi)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-ombi/)
-[hub]: https://hub.docker.com/r/lsioarmhf/ombi/
 
 [hub]: https://hub.docker.com/r/linuxserver/ombi/
 
-So what is [Ombi][ombiurl] you ask!?
+So what is [Ombi][appurl] you ask!?
 
 Ombi allows you to host your own Plex Request and user management system.
  
@@ -28,8 +29,7 @@ Allow your users to post issues against their requests so you know there is a pr
 
 Even automatically sent them weekly newsletters of new content that has been added to your Plex server!
 
-[![ombi](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ombi.png)][ombiurl]
-[ombiurl]: https://ombi.io/
+[![ombi](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ombi.png)][appurl]
 
 ## Usage
 
