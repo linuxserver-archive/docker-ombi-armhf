@@ -91,6 +91,7 @@ Webui is at `<your-ip>:3579`, Follow the setup wizard on initial install.  Then 
 
 ## Versions
 
++ **26.01.18:** Fix continuation lines.
 + **19.04.17:** Switch to using inhouse mono baseimage.
 + **13.02.17:** Spec to latest X86.
 + **14.01.17:** Initial Release Date.
