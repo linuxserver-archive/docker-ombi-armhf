@@ -91,6 +91,7 @@ Webui is at `<your-ip>:3579`, Follow the setup wizard on initial install.  Then 
 
 ## Versions
 
++ **05.03.18:** Switch to Ombi v3 stable based on .net core. V3 uses a different database structure so the user has to set up from scratch again. V2 settings are not lost by updating; the user can go back to v2 with old settings and data by pulling image tag 55
 + **26.01.18:** Fix continuation lines.
 + **19.04.17:** Switch to using inhouse mono baseimage.
 + **13.02.17:** Spec to latest X86.
