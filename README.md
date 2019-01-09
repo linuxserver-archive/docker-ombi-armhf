@@ -5,6 +5,8 @@
 [appurl]: https://ombi.io/
 [hub]: https://hub.docker.com/r/lsioarmhf/ombi/
 
+THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/ombi`
+
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
 The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
@@ -95,6 +97,7 @@ This image now contains Ombi v3. The settings and database from v2 are not compa
 
 ## Versions
 
++ **09.01.19:** This image is deprecated. Please use the multi-arch images at linuxserver/ombi
 + **11.03.18:** Add HOME env to Dockerfile.
 + **05.03.18:** Switch to Ombi v3 stable based on .net core. V3 uses a different database structure so the user has to set up from scratch again. V2 settings are not lost by updating; the user can go back to v2 with old settings and data by pulling image tag `v2`
 + **26.01.18:** Fix continuation lines.
